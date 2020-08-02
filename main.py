@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-from telebot import types
 import telebot
 import tools
 import my_logger
