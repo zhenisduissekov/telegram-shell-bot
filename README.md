@@ -35,10 +35,10 @@
        docker run --restart=always --name telegram-shell-bot telegram-shell-bot
 <div class="row">
   <div class="column">
-    <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" alt="Overview" style="width:30%">
+    <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" alt="Overview" style="width:30">
   </div>
   <div class="column">
-    <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" alt="Extra" style="width:30%">
+    <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" alt="Extra" style="width:30">
   </div>
 </div>
 
