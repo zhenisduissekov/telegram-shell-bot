@@ -36,3 +36,4 @@
 
 
 ![Alt Text](https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif)
+![Alt Text](https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif)
