@@ -38,9 +38,9 @@
 1. основных возможностей <br>
 2. дополнительных возможностей только для владельца телеграм бота
 
-<p class="aligncenter">
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false" width="400" height="400" />
+<p>
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false" class="aligncenter" width="400" height="400" />
 &nbsp;&nbsp;        &nbsp;
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false" width="400" height="400" />
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false"  class="aligncenter" width="400" height="400" />
 </p>
 
