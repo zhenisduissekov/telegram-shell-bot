@@ -42,10 +42,10 @@
   </div>
 </div>
 
-
+<p>
 <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false" width="100" height="100" />
 <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false" width="100" height="100" />
-
+</p>
 
 <p data-sourcepos="5:1-7:96" dir="auto">
         <a class="no-attachment-icon" href="https://gitlab.com/dosboxd/question/-/raw/master/with_UUID_crash.gif?inline=false" target="_blank" rel="noopener noreferrer"><img src="https://gitlab.com/dosboxd/question/-/raw/master/with_UUID_crash.gif?inline=false" alt="Alt Text" class="js-lazy-loaded qa-js-lazy-loaded" loading="lazy"></a>
