@@ -9,10 +9,7 @@ import os
 
 
 config = tools.load_config_file()
-if config['TOKEN'] is None:
-    bot = telebot.TeleBot(os.environ['tel_tok'])
-else:
-    bot = telebot.TeleBot(config['TOKEN'])
+bot = telebot.TeleBot(config['TOKEN'])
 
 P_TIMEZONE = pytz.timezone(config['TIMEZONE'])
 TIMEZONE_COMMON_NAME = config['TIMEZONE_COMMON_NAME']
@@ -45,8 +42,8 @@ def start_command(message):
 @bot.message_handler(commands=['help', 'info'])
 def help_command(message):
     keyboard = telebot.types.InlineKeyboardMarkup()
-    keyboard.add(telebot.types.InlineKeyboardButton('Message the developer', url='telegram.me/zduissekov'))
     keyboard.add(telebot.types.InlineKeyboardButton('Git', url='https://zhenisduissekov.github.io'))
+    keyboard.add(telebot.types.InlineKeyboardButton('Message the developer', url='telegram.me/zduissekov'))
     bot.send_message(
         message.chat.id,
         "Я написал этот бот в целях саморазвития.\n"
