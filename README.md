@@ -47,7 +47,7 @@
 </figure>
 </p>
 
-
+<p>
 <div id="images">
     <a href="http://xyz.com/hello">
         <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px">
@@ -57,4 +57,5 @@
         <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px"> 
         <div class="caption">Caption 2</div>
     </a>
-</div>​
+</div>
+</p>
