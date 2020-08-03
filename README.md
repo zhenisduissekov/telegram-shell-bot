@@ -34,3 +34,5 @@
        docker build -t telegram-shell-bot .
        docker run --restart=always --name telegram-shell-bot telegram-shell-bot
 
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
