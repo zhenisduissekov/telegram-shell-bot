@@ -8,23 +8,25 @@
         <li> get- pwd </li>
         
 **Требования к установке**
+<ul>
 1. Python 3.8
 2. Модули:
-        certifi==2020.6.20
-        chardet==3.0.4
-        colorlog==4.2.1
-        configparser==5.0.0
-        idna==2.10
-        Pillow==7.2.0
-        pyTelegramBotAPI==3.7.2
-        pytz==2020.1
-        PyYAML==5.3.1
-        requests==2.24.0
-        six==1.15.0
-        urllib3==1.25.10
-        utils==1.0.1
-
-
+<ul>
+        <li>certifi==2020.6.20</li>
+        <li>chardet==3.0.4</li>
+        <li>colorlog==4.2.1</li>
+        <li>configparser==5.0.0</li>
+        <li>idna==2.10</li>
+        <li>Pillow==7.2.0</li>
+        <li>pyTelegramBotAPI==3.7.2</li>
+        <li>pytz==2020.1</li>
+        <li>PyYAML==5.3.1</li>
+        <li>requests==2.24.0</li>
+        <li>six==1.15.0</li>
+        <li>urllib3==1.25.10</li>
+        <li>utils==1.0.1</li>
+</ul>
+</ul>
 **Подготовка программы**
 1. После скачивания с гитхаба необходимо создать файл config.yaml
 2. Внутри вставить следующее:
