@@ -11,9 +11,6 @@
 
         ---
         TOKEN : 'токен' # вставить токен своего бота
-        TIMEZONE : 'Asia/Almaty'
-        TIMEZONE_COMMON_NAME : 'Almaty'
-
         ADMIN: 'username'  # ввести свой пользователь
 
 **Запуск с терминала**

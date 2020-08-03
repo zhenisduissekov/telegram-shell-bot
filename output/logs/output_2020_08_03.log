@@ -867,3 +867,49 @@ telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. 
 03/08/2020 12:14:35 - [    tools.py: 80 - take_screenshot() ]- INFO - Фотографирование экрана прошло успешно
 03/08/2020 12:15:16 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
 03/08/2020 12:15:16 - [     main.py:111 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 13:51:15 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 13:51:15 - [     main.py:111 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 13:51:29 - [     main.py: 72 - callback_inline() ]- INFO - Принята команда Memory
+03/08/2020 13:51:29 - [     main.py: 75 - callback_inline() ]- INFO - Запрос на просмотр памяти
+03/08/2020 13:51:29 - [    tools.py: 67 - check_memory() ]- INFO - Выгрузка процессов из терминала прошла успешно
+03/08/2020 13:52:11 - [     main.py: 72 - callback_inline() ]- INFO - Принята команда Memory
+03/08/2020 13:52:11 - [     main.py: 75 - callback_inline() ]- INFO - Запрос на просмотр памяти
+03/08/2020 13:52:11 - [    tools.py: 67 - check_memory() ]- INFO - Выгрузка процессов из терминала прошла успешно
+03/08/2020 13:52:14 - [     main.py: 72 - callback_inline() ]- INFO - Принята команда Processes
+03/08/2020 13:52:14 - [     main.py: 79 - callback_inline() ]- INFO - Запрос на просмотр процессов
+03/08/2020 13:52:14 - [    tools.py: 41 - check_processes() ]- INFO - Выгрузка данных по памяти из терминала прошла успешно
+03/08/2020 13:52:20 - [     main.py: 72 - callback_inline() ]- INFO - Принята команда Screenshot
+03/08/2020 13:52:20 - [     main.py: 83 - callback_inline() ]- INFO - Запрос на просмотр экрана
+03/08/2020 13:52:22 - [    tools.py: 80 - take_screenshot() ]- INFO - Фотографирование экрана прошло успешно
+03/08/2020 14:08:16 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 14:08:16 - [     main.py:108 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 14:08:30 - [     main.py: 91 - unexpected_messages() ]- WARNING - Получено сообщение "ss"
+03/08/2020 14:08:30 - [     main.py:101 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 14:08:36 - [     main.py: 69 - callback_inline() ]- INFO - Принята команда Screenshot
+03/08/2020 14:08:36 - [     main.py: 80 - callback_inline() ]- INFO - Запрос на просмотр экрана
+03/08/2020 14:08:38 - [    tools.py: 80 - take_screenshot() ]- INFO - Фотографирование экрана прошло успешно
+03/08/2020 14:08:41 - [     main.py: 69 - callback_inline() ]- INFO - Принята команда Processes
+03/08/2020 14:08:41 - [     main.py: 76 - callback_inline() ]- INFO - Запрос на просмотр процессов
+03/08/2020 14:08:41 - [    tools.py: 41 - check_processes() ]- INFO - Выгрузка данных по памяти из терминала прошла успешно
+03/08/2020 14:08:44 - [     main.py: 69 - callback_inline() ]- INFO - Принята команда Memory
+03/08/2020 14:08:44 - [     main.py: 72 - callback_inline() ]- INFO - Запрос на просмотр памяти
+03/08/2020 14:08:44 - [    tools.py: 67 - check_memory() ]- INFO - Выгрузка процессов из терминала прошла успешно
+03/08/2020 14:08:51 - [     main.py: 91 - unexpected_messages() ]- WARNING - Получено сообщение "fffd"
+03/08/2020 14:08:51 - [     main.py:101 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 14:09:10 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 14:09:10 - [     main.py:108 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 14:09:16 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 14:09:16 - [     main.py:107 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 14:12:51 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 14:12:51 - [     main.py:107 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 14:13:11 - [     main.py: 90 - unexpected_messages() ]- WARNING - Получено сообщение "sdfsd"
+03/08/2020 14:13:11 - [     main.py:100 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 14:13:18 - [     main.py: 68 - callback_inline() ]- INFO - Принята команда Screenshot
+03/08/2020 14:13:18 - [     main.py: 79 - callback_inline() ]- INFO - Запрос на просмотр экрана
+03/08/2020 14:13:20 - [     main.py: 68 - callback_inline() ]- INFO - Принята команда Processes
+03/08/2020 14:13:20 - [     main.py: 75 - callback_inline() ]- INFO - Запрос на просмотр процессов
+03/08/2020 14:13:20 - [    tools.py: 41 - check_processes() ]- INFO - Выгрузка данных по памяти из терминала прошла успешно
+03/08/2020 14:13:20 - [    tools.py: 80 - take_screenshot() ]- INFO - Фотографирование экрана прошло успешно
+03/08/2020 14:13:25 - [     main.py: 68 - callback_inline() ]- INFO - Принята команда Memory
+03/08/2020 14:13:25 - [     main.py: 71 - callback_inline() ]- INFO - Запрос на просмотр памяти
+03/08/2020 14:13:25 - [    tools.py: 67 - check_memory() ]- INFO - Выгрузка процессов из терминала прошла успешно

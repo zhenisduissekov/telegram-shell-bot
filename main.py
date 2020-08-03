@@ -4,15 +4,11 @@
 import telebot
 import tools
 import my_logger
-import pytz
 import os
 
 
 config = tools.load_config_file()
 bot = telebot.TeleBot(config['TOKEN'])
-
-P_TIMEZONE = pytz.timezone(config['TIMEZONE'])
-TIMEZONE_COMMON_NAME = config['TIMEZONE_COMMON_NAME']
 
 
 @bot.message_handler(commands=['quit'])
