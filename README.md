@@ -35,6 +35,6 @@
        docker run --restart=always --name telegram-shell-bot telegram-shell-bot
 
 
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="40" height="40" />
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="400" height="400" />
 
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" width="40" height="40" />
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" width="400" height="400" />
