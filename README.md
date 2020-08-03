@@ -40,11 +40,14 @@
 
 <p>
 <figure>
-<figcaption>Dog</figcaption>
+<figcaption>основных возможностей</figcaption>
 <img class="aligncenter"  src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false"  width="400" height="400" 
 /></figure>
 &nbsp;&nbsp;&nbsp;
+<figure>
+<figcaption>дополнительных возможностей только для владельца телеграм бота</figcaption>
 <img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false"  width="400" height="400" />
+</figure>
 </p>
 
 
