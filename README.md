@@ -47,10 +47,11 @@
 </figure>
 </p>
 
-<p> <title>основных возможностей</title>
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px">
-<title>основных возможностей</title>
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px"> 
+<ul>
+        <li>основных возможностей</li>
+        <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px">
+        <li>основных возможностей</li>
+        <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px"> 
 </p>
 
 
