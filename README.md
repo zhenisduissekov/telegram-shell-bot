@@ -1,4 +1,4 @@
-# telegram-shell-bot
+<h2># telegram-shell-bot</h2>
 
 Телеграм-бот (Ubuntu 18.04) позволяющий отправлять команды в терминал ПК и получать результат
 
@@ -47,49 +47,11 @@
 </figure>
 </p>
 
-<p>
-<div id="images" class="row">
-    <div class="column">
-        <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px">
-        <div class="caption">Caption 1</div>
-    </div>
-    <div class="column">
-        <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px"> 
-        <div class="caption">Caption 2</div>
-    </div>
-</div>
+<p> <title>основных возможностей</title>
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px">
+<title>основных возможностей</title>
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px"> 
 </p>
 
-<style>
-* {
-  box-sizing: border-box;
-}
 
-.row {
-  display: flex;
-}
-
-/* Create three equal columns that sits next to each other */
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-</style>
-</head>
-<body>
-
-<h2>Images Side by Side</h2>
-<p>How to create side-by-side images with CSS Flexbox:</p>
-
-<div class="row">
-  <div class="column">
-    <img src="img_snow.jpg" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="img_forest.jpg" alt="Forest" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
-  </div>
-</div>
 
