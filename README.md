@@ -48,12 +48,12 @@
 </p>
 
 <p>
-<div id="images">
-    <a href="http://xyz.com/hello">
+<div id="images" class="row">
+    <a class="column">
         <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px">
         <div class="caption">Caption 1</div>
     </a>
-    <a href="http://xyz.com/hi">
+    <a class="column">
         <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px"> 
         <div class="caption">Caption 2</div>
     </a>
