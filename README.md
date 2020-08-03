@@ -39,7 +39,10 @@
 2. дополнительных возможностей только для владельца телеграм бота
 
 <p>
-<img class="aligncenter"  src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false"  width="400" height="400" />
+<figure>
+<figcaption>Dog</figcaption>
+<img class="aligncenter"  src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false"  width="400" height="400" 
+/></figure>
 &nbsp;&nbsp;&nbsp;
 <img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false"  width="400" height="400" />
 </p>
