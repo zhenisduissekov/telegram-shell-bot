@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 ---
-TOKEN : '1134043221:AAEQ5Xsx_BQ7ibsgZ0SNjqK-yGni8esx6R0' # вставить токен своего бота
+TOKEN : '' # вставить токен своего бота
 TIMEZONE : 'Asia/Almaty'
 TIMEZONE_COMMON_NAME : 'Almaty'
 
-ADMIN: 'zduissekov'  # ввести свой пользователь
+ADMIN: ''  # ввести свой пользователь
