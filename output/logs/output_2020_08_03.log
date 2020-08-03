@@ -844,3 +844,9 @@ telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. 
 03/08/2020 11:44:07 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен
 03/08/2020 11:44:14 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
 03/08/2020 11:44:14 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 12:00:30 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 12:00:30 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 12:00:37 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 12:00:37 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 12:00:45 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "werwer"
+03/08/2020 12:00:45 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
