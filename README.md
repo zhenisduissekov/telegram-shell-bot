@@ -41,3 +41,7 @@
     <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" alt="Extra" style="width:30%">
   </div>
 </div>
+
+
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" width="40" height="40" />
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="40" height="40" />
