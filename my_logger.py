@@ -27,11 +27,10 @@ def logger_config(name=None):
     return log
 
 
-def logger_config_with_output(name=None):
+def logger_config_with_output():
     log_formatter = logging.Formatter(
         "%(asctime)s - [%(filename)12s:%(lineno)3s - %(funcName)12s() ]- %(levelname)s - %(message)s",
-                                      datefmt='%d/%m/%Y %H:%M:%S')
-
+        datefmt='%d/%m/%Y %H:%M:%S')
     # Setup File handler
     now = datetime.datetime.now()
     log_file = os.path.join(os.getcwd(), 'output', 'logs', 'output_' + now.strftime("%Y_%m_%d") + '.log')

@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-from telebot import types
-import sys
 from pathlib import Path
-import yaml
-import os
-import time
+from telebot import types
 import datetime
 import logging
+import sys
 import text_to_image
+import time
+import os
+import yaml
 
 
 def load_config_file():
@@ -25,13 +25,14 @@ def load_config_file():
     return result_config
 
 
-# def generate_markup(level):
-#     markup = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=False)
-#     config = load_config_file()
-#     if level.lower() in ['menu', '/menu']:
-#         for service in config['menu']:
-#             markup.add(service['service'])
-#     return markup
+def generate_markup(level):
+    # TODO: реализовать кастомную клавиатуру для много-уровнего меню
+    markup = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=False)
+    config = load_config_file()
+    if level.lower() in ['menu', '/menu']:
+        for service in config['menu']:
+            markup.add(service['service'])
+    return markup
 
 
 def check_processes():
@@ -52,8 +53,9 @@ def custom_command(my_command):
             if counter > 30:
                 break
         logging.info(f'Выгрузка данных по кастомной команде из терминала прошла успешно')
-    except Exception as e:
-        logging.error(f'Произошла ошибка при {my_command}')
+    except Exception as e:  # TODO: проработать варианты ошибок
+        logging.error(f'Произошла ошибка при {my_command} {e}')
+        result = 'error'
     return result
 
 
@@ -102,4 +104,4 @@ def check_all_folders():
         os.makedirs(os.path.join('output', 'requests'))
     if not os.path.exists(os.path.join('output', 'screenshots')):
         os.makedirs(os.path.join('output', 'screenshots'))
-    logging.info('Папки в порядке')
+

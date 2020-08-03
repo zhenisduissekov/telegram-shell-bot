@@ -89,7 +89,7 @@ def menu_command(message):
 def unexpected_messages(message):
     logging.warning(f'Получено сообщение "{message.text}"')
     if message.text.startswith('get-') and message.from_user.username == config['ADMIN']:
-        custom_command = message.text.strip('get-')
+        custom_command = message.text.lstrip('get-')
         result = tools.custom_command(custom_command)
         bot.send_message(message.chat.id, result)
         return 0
@@ -102,7 +102,7 @@ def unexpected_messages(message):
 
 
 if __name__ == '__main__':
-    logging = my_logger.logger_config_with_output()
     tools.check_all_folders()
+    logging = my_logger.logger_config_with_output()
     logging.info('Телеграм бот запущен')
     bot.polling(none_stop=True)
