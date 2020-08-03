@@ -15,7 +15,6 @@
         TIMEZONE_COMMON_NAME : 'Almaty'
 
         ADMIN: 'username'  # ввести свой пользователь
-3. Без этого работать не будет
 
 **Запуск с терминала**
 1. cd telegram-shell-bot
