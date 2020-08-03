@@ -830,3 +830,17 @@ telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. 
 03/08/2020 11:13:57 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
 03/08/2020 11:14:08 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ping www.google.com"
 03/08/2020 11:14:38 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 11:43:56 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 11:43:56 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 11:43:56 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "ss"
+03/08/2020 11:43:56 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "sadasd"
+03/08/2020 11:43:57 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 11:43:57 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "sdasda"
+03/08/2020 11:43:57 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 11:43:57 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "fdgd"
+03/08/2020 11:43:57 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 11:43:57 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 11:44:07 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 11:44:07 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 11:44:14 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 11:44:14 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен

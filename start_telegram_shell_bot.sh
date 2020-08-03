@@ -1,2 +1,2 @@
-gnome-terminal -e 'venv/bin/python main.py'
+gnome-terminal -e "venv/bin/python main.py"
 
