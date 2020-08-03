@@ -1,4 +1,2 @@
 config.yaml
-*.log
-*.csv
-*.png
+output
