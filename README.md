@@ -8,10 +8,9 @@
         <li> get- pwd </li>
         
 **Требования к установке**
-<ul>
+
 1. Python 3.8
 2. Модули:
-<ul>
         <li>certifi==2020.6.20</li>
         <li>chardet==3.0.4</li>
         <li>colorlog==4.2.1</li>
@@ -25,8 +24,8 @@
         <li>six==1.15.0</li>
         <li>urllib3==1.25.10</li>
         <li>utils==1.0.1</li>
-</ul>
-</ul>
+
+
 **Подготовка программы**
 1. После скачивания с гитхаба необходимо создать файл config.yaml
 2. Внутри вставить следующее:
@@ -54,11 +53,11 @@
        docker run --restart=always --name telegram-shell-bot telegram-shell-bot
 
 **Использование** 
-1. /start
-2. /menu или /commands
-3. /help
-4. /quit
-5. get- команда распознаваемая в терминале
+<li>/start</li>
+<li>/menu или /commands</li>
+<li>/help</li>
+<li>/quit</li>
+<li>get- команда распознаваемая в терминале</li>
 
 **Демонстрация:**
 1. основных возможностей <br>
