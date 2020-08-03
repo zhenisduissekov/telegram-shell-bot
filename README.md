@@ -44,7 +44,6 @@
 2. дополнительных возможностей только для владельца телеграм бота
 
 <p>
-<div style="pointer-events:none; cursor:default;">
 <img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" title="Демонстрация основных возможностей" width="400" height="400"/></div>
 &nbsp;&nbsp;&nbsp;
 <img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif"  title="Демонстрация дополнительных возможностей только для владельца телеграм бота" width="400" height="400"/>
