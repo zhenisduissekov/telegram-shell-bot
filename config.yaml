@@ -1,9 +1,0 @@
-#!/usr/bin/python3
-# -*- coding: utf-8 -*-
-
----
-TOKEN : '' # вставить токен своего бота
-TIMEZONE : 'Asia/Almaty'
-TIMEZONE_COMMON_NAME : 'Almaty'
-
-ADMIN: ''  # ввести свой пользователь
