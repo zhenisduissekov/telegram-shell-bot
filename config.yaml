@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 ---
-TOKEN : '1134043221:AAEQ5Xsx_BQ7ibsgZ0SNjqK-yGni8esx6R0'  # заменить на токен своего бота
+TOKEN : # заменить на токен своего бота
 TIMEZONE : 'Asia/Almaty'
 TIMEZONE_COMMON_NAME : 'Almaty'
 

@@ -1,0 +1,832 @@
+03/08/2020 10:17:28 - [     main.py:110 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:17:55 - [     main.py:110 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:18:05 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Memory
+03/08/2020 10:18:05 - [     main.py: 74 - callback_inline() ]- INFO - Запрос на просмотр памяти
+03/08/2020 10:18:05 - [    tools.py: 67 - check_memory() ]- INFO - Выгрузка процессов из терминала прошла успешно
+03/08/2020 10:18:07 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Processes
+03/08/2020 10:18:07 - [     main.py: 78 - callback_inline() ]- INFO - Запрос на просмотр процессов
+03/08/2020 10:18:07 - [    tools.py: 41 - check_processes() ]- INFO - Выгрузка данных по памяти из терминала прошла успешно
+03/08/2020 10:18:18 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Screenshot
+03/08/2020 10:18:18 - [     main.py: 82 - callback_inline() ]- INFO - Запрос на просмотр экрана
+03/08/2020 10:18:20 - [    tools.py: 80 - take_screenshot() ]- INFO - Фотографирование экрана прошло успешно
+03/08/2020 10:18:20 - [     util.py: 68 -          run() ]- ERROR - FileNotFoundError occurred, args=(2, 'No such file or directory')
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/main.py", line 86, in callback_inline
+    bot.send_photo(message.chat.id, (os.path.basename(image), open(image.strip(), "rb")))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/zhenisd/Yandex.Disk/telegram-shell-bot/output/screenshots/photo.png'
+
+03/08/2020 10:19:12 - [     main.py:110 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:19:26 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Screenshot
+03/08/2020 10:19:26 - [     main.py: 82 - callback_inline() ]- INFO - Запрос на просмотр экрана
+03/08/2020 10:19:27 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Processes
+03/08/2020 10:19:27 - [     main.py: 78 - callback_inline() ]- INFO - Запрос на просмотр процессов
+03/08/2020 10:19:27 - [    tools.py: 41 - check_processes() ]- INFO - Выгрузка данных по памяти из терминала прошла успешно
+03/08/2020 10:19:28 - [    tools.py: 80 - take_screenshot() ]- INFO - Фотографирование экрана прошло успешно
+03/08/2020 10:19:31 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Memory
+03/08/2020 10:19:31 - [     main.py: 74 - callback_inline() ]- INFO - Запрос на просмотр памяти
+03/08/2020 10:19:31 - [    tools.py: 67 - check_memory() ]- INFO - Выгрузка процессов из терминала прошла успешно
+03/08/2020 10:19:53 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:19:53 - [     main.py:110 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:20:01 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Memory
+03/08/2020 10:20:01 - [     main.py: 74 - callback_inline() ]- INFO - Запрос на просмотр памяти
+03/08/2020 10:20:01 - [    tools.py: 67 - check_memory() ]- INFO - Выгрузка процессов из терминала прошла успешно
+03/08/2020 10:20:03 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Screenshot
+03/08/2020 10:20:03 - [     main.py: 82 - callback_inline() ]- INFO - Запрос на просмотр экрана
+03/08/2020 10:20:05 - [    tools.py: 80 - take_screenshot() ]- INFO - Фотографирование экрана прошло успешно
+03/08/2020 10:20:08 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Processes
+03/08/2020 10:20:08 - [     main.py: 78 - callback_inline() ]- INFO - Запрос на просмотр процессов
+03/08/2020 10:20:08 - [    tools.py: 41 - check_processes() ]- INFO - Выгрузка данных по памяти из терминала прошла успешно
+03/08/2020 10:34:48 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Memory
+03/08/2020 10:34:48 - [     main.py: 74 - callback_inline() ]- INFO - Запрос на просмотр памяти
+03/08/2020 10:34:48 - [    tools.py: 67 - check_memory() ]- INFO - Выгрузка процессов из терминала прошла успешно
+03/08/2020 10:34:50 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Processes
+03/08/2020 10:34:50 - [     main.py: 78 - callback_inline() ]- INFO - Запрос на просмотр процессов
+03/08/2020 10:34:50 - [    tools.py: 41 - check_processes() ]- INFO - Выгрузка данных по памяти из терминала прошла успешно
+03/08/2020 10:34:59 - [     main.py: 71 - callback_inline() ]- INFO - Принята команда Screenshot
+03/08/2020 10:34:59 - [     main.py: 82 - callback_inline() ]- INFO - Запрос на просмотр экрана
+03/08/2020 10:35:01 - [    tools.py: 80 - take_screenshot() ]- INFO - Фотографирование экрана прошло успешно
+03/08/2020 10:42:13 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:42:13 - [     main.py:110 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:43:06 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:43:06 - [     main.py:112 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:43:06 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:43:06 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:43:06 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:43:06 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:43:07 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:43:07 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:43:08 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:43:08 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:43:10 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:43:10 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:43:14 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:43:14 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:43:28 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:43:28 - [     main.py:112 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:43:58 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:43:58 - [     main.py:112 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:43:58 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:43:58 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:43:59 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:43:59 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:43:59 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:43:59 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:44:00 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:44:00 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:44:02 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:44:02 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:44:06 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:44:06 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:45:09 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:45:09 - [     main.py:115 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:45:10 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:45:10 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:45:10 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:45:10 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:45:11 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:45:11 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:45:12 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:45:12 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:45:31 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:45:31 - [     main.py:115 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:45:31 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:45:31 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:45:32 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:45:32 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:46:14 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:46:14 - [     main.py:115 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:46:14 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:46:14 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:46:14 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:46:14 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:46:15 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:46:15 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:46:16 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:46:16 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:47:15 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:47:15 - [     main.py:116 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:47:15 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:47:15 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:47:15 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:47:15 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:47:16 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:\n[b\'{"ok":false,"error_code":401,"description":"Unauthorized"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+
+03/08/2020 10:47:16 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 401 Unauthorized. Response body:
+[b'{"ok":false,"error_code":401,"description":"Unauthorized"}']
+03/08/2020 10:48:07 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:48:07 - [     main.py:116 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:48:07 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:48:07 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:48:07 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:48:07 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:48:08 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:48:08 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:48:09 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:48:09 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:48:11 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:48:11 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:48:36 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:48:36 - [     main.py:118 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:48:36 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:48:36 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:48:36 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:48:36 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:48:37 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:48:37 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:48:38 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:\n[b\'{"ok":false,"error_code":404,"description":"Not Found"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 285, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1), timeout=timeout)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 255, in get_updates
+    json_updates = apihelper.get_updates(self.token, offset, limit, timeout, allowed_updates)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 206, in get_updates
+    return _make_request(token, method_url, params=payload)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+
+03/08/2020 10:48:38 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 404 Not Found. Response body:
+[b'{"ok":false,"error_code":404,"description":"Not Found"}']
+03/08/2020 10:48:59 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:48:59 - [     main.py:118 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:50:01 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:50:01 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:51:49 - [     main.py: 75 - callback_inline() ]- INFO - Принята команда Memory
+03/08/2020 10:51:49 - [     main.py: 78 - callback_inline() ]- INFO - Запрос на просмотр памяти
+03/08/2020 10:51:49 - [    tools.py: 67 - check_memory() ]- INFO - Выгрузка процессов из терминала прошла успешно
+03/08/2020 10:51:55 - [     main.py: 75 - callback_inline() ]- INFO - Принята команда Processes
+03/08/2020 10:51:55 - [     main.py: 82 - callback_inline() ]- INFO - Запрос на просмотр процессов
+03/08/2020 10:51:55 - [    tools.py: 41 - check_processes() ]- INFO - Выгрузка данных по памяти из терминала прошла успешно
+03/08/2020 10:52:04 - [     main.py: 75 - callback_inline() ]- INFO - Принята команда Screenshot
+03/08/2020 10:52:04 - [     main.py: 86 - callback_inline() ]- INFO - Запрос на просмотр экрана
+03/08/2020 10:52:06 - [    tools.py: 80 - take_screenshot() ]- INFO - Фотографирование экрана прошло успешно
+03/08/2020 10:52:15 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "/msnasd"
+03/08/2020 10:52:15 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 10:52:17 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "ksdas"
+03/08/2020 10:52:17 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 10:52:21 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "quit"
+03/08/2020 10:52:21 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 10:52:23 - [     main.py: 26 - quit_command() ]- WARNING - Программа закончена по вызову
+03/08/2020 10:54:56 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 10:54:56 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 10:54:57 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "/get- ping www.google.com -c 4"
+03/08/2020 10:54:57 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 10:55:20 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "/get- ping ww.google.com -c 1"
+03/08/2020 10:55:20 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 10:55:47 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ping www.google.com -c 1"
+03/08/2020 10:55:47 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 10:57:27 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ping www.google.com -c 3"
+03/08/2020 10:57:29 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 10:57:48 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get -ls /home"
+03/08/2020 10:57:48 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 10:57:55 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ls /home"
+03/08/2020 10:57:55 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 10:57:55 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 400 Bad Request. Response body:\n[b\'{"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/main.py", line 101, in unexpected_messages
+    bot.send_message(message.chat.id, result)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 640, in send_message
+    apihelper.send_message(self.token, chat_id, text, disable_web_page_preview, reply_to_message_id,
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 166, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 400 Bad Request. Response body:
+[b'{"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}']
+
+03/08/2020 10:57:55 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 400 Bad Request. Response body:
+[b'{"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}']
+03/08/2020 10:58:10 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- pwd"
+03/08/2020 10:58:10 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 11:11:19 - [    tools.py:105 - check_all_folders() ]- INFO - Папки в порядке
+03/08/2020 11:11:19 - [     main.py:114 -     <module>() ]- INFO - Телеграм бот запущен
+03/08/2020 11:11:31 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- asdasd"
+03/08/2020 11:11:31 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 11:11:31 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 400 Bad Request. Response body:\n[b\'{"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/main.py", line 101, in unexpected_messages
+    bot.send_message(message.chat.id, result)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 640, in send_message
+    apihelper.send_message(self.token, chat_id, text, disable_web_page_preview, reply_to_message_id,
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 166, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 400 Bad Request. Response body:
+[b'{"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}']
+
+03/08/2020 11:11:31 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 400 Bad Request. Response body:
+[b'{"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}']
+03/08/2020 11:11:38 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "s"
+03/08/2020 11:11:38 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 11:11:47 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ping www.google.com"
+03/08/2020 11:12:16 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 11:12:34 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ls"
+03/08/2020 11:12:34 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 11:12:40 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ls /"
+03/08/2020 11:12:40 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 11:12:45 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ls /home"
+03/08/2020 11:12:45 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 11:12:45 - [     util.py: 68 -          run() ]- ERROR - ApiException occurred, args=('A request to the Telegram API was unsuccessful. The server returned HTTP 400 Bad Request. Response body:\n[b\'{"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}\']',)
+Traceback (most recent call last):
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/util.py", line 62, in run
+    task(*args, **kwargs)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/main.py", line 101, in unexpected_messages
+    bot.send_message(message.chat.id, result)
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/__init__.py", line 640, in send_message
+    apihelper.send_message(self.token, chat_id, text, disable_web_page_preview, reply_to_message_id,
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 166, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 69, in _make_request
+    return _check_result(method_name, result)['result']
+  File "/home/zhenisd/Yandex.Disk/telegram-shell-bot/venv/lib/python3.8/site-packages/telebot/apihelper.py", line 88, in _check_result
+    raise ApiException(msg, method_name, result)
+telebot.apihelper.ApiException: A request to the Telegram API was unsuccessful. The server returned HTTP 400 Bad Request. Response body:
+[b'{"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}']
+
+03/08/2020 11:12:45 - [ __init__.py:455 - __threaded_polling() ]- ERROR - A request to the Telegram API was unsuccessful. The server returned HTTP 400 Bad Request. Response body:
+[b'{"ok":false,"error_code":400,"description":"Bad Request: message text is empty"}']
+03/08/2020 11:12:47 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "g"
+03/08/2020 11:12:47 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 11:13:21 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ls"
+03/08/2020 11:13:21 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 11:13:52 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get - ls /"
+03/08/2020 11:13:52 - [     main.py:107 - unexpected_messages() ]- INFO - Выдан ответ - "Извините, я вас не понимаю, но ваш вопрос будет занесен в базу для последующего просмотра"
+03/08/2020 11:13:57 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ls /"
+03/08/2020 11:13:57 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно
+03/08/2020 11:14:08 - [     main.py: 97 - unexpected_messages() ]- WARNING - Получено сообщение "get- ping www.google.com"
+03/08/2020 11:14:38 - [    tools.py: 54 - custom_command() ]- INFO - Выгрузка данных по кастомной команде из терминала прошла успешно

@@ -9,7 +9,11 @@ import os
 
 
 config = tools.load_config_file()
-bot = telebot.TeleBot(config['TOKEN'])
+if config['TOKEN'] is None:
+    bot = telebot.TeleBot(os.environ['tel_tok'])
+else:
+    bot = telebot.TeleBot(config['TOKEN'])
+
 P_TIMEZONE = pytz.timezone(config['TIMEZONE'])
 TIMEZONE_COMMON_NAME = config['TIMEZONE_COMMON_NAME']
 
@@ -41,11 +45,8 @@ def start_command(message):
 @bot.message_handler(commands=['help', 'info'])
 def help_command(message):
     keyboard = telebot.types.InlineKeyboardMarkup()
-    keyboard.add(
-        telebot.types.InlineKeyboardButton(
-            'Message the developer', url='telegram.me/zduissekov'
-        )
-    )
+    keyboard.add(telebot.types.InlineKeyboardButton('Message the developer', url='telegram.me/zduissekov'))
+    keyboard.add(telebot.types.InlineKeyboardButton('Git', url='https://zhenisduissekov.github.io'))
     bot.send_message(
         message.chat.id,
         "Я написал этот бот в целях саморазвития.\n"
@@ -64,7 +65,6 @@ def help_command(message):
 @bot.message_handler(commands=['commands', 'menu', 'quit'])
 def menu_command(message):
     keyboard = telebot.types.InlineKeyboardMarkup()
-    keyboard.add(telebot.types.InlineKeyboardButton('Git', url='https://zhenisduissekov.github.io'))
     keyboard.add(telebot.types.InlineKeyboardButton('Memory', callback_data="Memory"))
     keyboard.add(telebot.types.InlineKeyboardButton('Processes', callback_data='Processes'))
     keyboard.add(telebot.types.InlineKeyboardButton('Screenshot', callback_data="Screenshot"))
@@ -109,7 +109,7 @@ def unexpected_messages(message):
 
 
 if __name__ == '__main__':
-    tools.check_all_folders()
     logging = my_logger.logger_config_with_output()
+    tools.check_all_folders()
     logging.info('Телеграм бот запущен')
     bot.polling(none_stop=True)
