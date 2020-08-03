@@ -34,8 +34,9 @@
        docker build -t telegram-shell-bot .
        docker run --restart=always --name telegram-shell-bot telegram-shell-bot
 
-   1. Демонстрация основных возможностей
-   2 .Демонстрация дополнительных возможностей только для владельца телеграм бота
+Демонстрация:
+1. основных возможностей
+2  дополнительных возможностей только для владельца телеграм бота
 
 <p>
 <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false" width="400" height="400" />
