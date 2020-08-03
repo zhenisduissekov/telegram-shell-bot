@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 ---
-TOKEN : '' # заменить на токен своего бота
+TOKEN : '' # вставить токен своего бота
 TIMEZONE : 'Asia/Almaty'
 TIMEZONE_COMMON_NAME : 'Almaty'
 
-ADMIN: ''  # заменить на свой пользователь
+ADMIN: ''  # ввести свой пользователь
