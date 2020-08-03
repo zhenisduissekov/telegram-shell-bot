@@ -39,12 +39,22 @@
 2. дополнительных возможностей только для владельца телеграм бота
 
 <p><figure><figcaption>основных возможностей</figcaption>
-<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false" width="300" height="300" 
+<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" width="300" height="300" 
 />
 &nbsp;&nbsp;&nbsp;
 <figcaption>дополнительных возможностей только для владельца телеграм бота</figcaption>
-<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false"  width="300" height="300" />
+<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif"  width="300" height="300" />
 </figure>
 </p>
 
 
+<div id="images">
+    <a href="http://xyz.com/hello">
+        <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px">
+        <div class="caption">Caption 1</div>
+    </a>
+    <a href="http://xyz.com/hi">
+        <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px"> 
+        <div class="caption">Caption 2</div>
+    </a>
+</div>​
