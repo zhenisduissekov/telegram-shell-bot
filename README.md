@@ -39,7 +39,15 @@
 2. дополнительных возможностей только для владельца телеграм бота
 
 <p>
-<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" title="Демонстрация основных возможностей" width="400" height="400"/>
+<div style="margin:-28px 0px 0px 0px; pointer-events:none; cursor:default;">
+<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" title="Демонстрация основных возможностей" width="400" height="400"/></div>
 &nbsp;&nbsp;&nbsp;
 <img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif"  title="Демонстрация дополнительных возможностей только для владельца телеграм бота" width="400" height="400"/>
 </p>
+
+**Использование** 
+1. /start
+2. /menu или /commands
+3. /help
+4. /quit
+5. get- команда распознаваемая в терминале
