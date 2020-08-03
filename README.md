@@ -43,5 +43,5 @@
 </div>
 
 
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" width="40" height="40" />
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="40" height="40" />
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false" width="100" height="100" />
+<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false" width="100" height="100" />
