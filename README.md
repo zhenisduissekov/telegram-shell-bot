@@ -38,10 +38,8 @@
 1. основных возможностей <br>
 2. дополнительных возможностей только для владельца телеграм бота
 
-<p><figure><figcaption>основных возможностей</figcaption>
-<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" title="Демонстрация основных возможностей" width="400" height="400" 
-/>
+<p>
+<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" title="Демонстрация основных возможностей" width="400" height="400"/>
 &nbsp;&nbsp;&nbsp;
-<figcaption>дополнительных возможностей только для владельца телеграм бота</figcaption>
-<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif"  title="Демонстрация дополнительных возможностей только для владельца телеграм бота" width="400" height="400" />
+<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif"  title="Демонстрация дополнительных возможностей только для владельца телеграм бота" width="400" height="400"/>
 </p>
