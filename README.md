@@ -40,6 +40,7 @@
 
 <p>
 <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false" width="400" height="400" />
+&nbsp;&nbsp;        &nbsp;
 <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false" width="400" height="400" />
 </p>
 
