@@ -2,7 +2,12 @@
 
 Телеграм-бот (Ubuntu 18.04) позволяющий отправлять команды в терминал ПК и получать результат
 
-Установка в Docker
+Запуск с терминала
+1. cd telegram-shell-bot
+2. ./start_telegram_shell_bot.sh
+
+
+Установка в Docker (не обязательна, сделал для пробы)
 
 1. Дать права папке и внутренним папкам
 
@@ -13,3 +18,4 @@
 
        docker build -t telegram-shell-bot .
        docker run --restart=always --name telegram-shell-bot telegram-shell-bot
+
