@@ -49,13 +49,26 @@
 
 <p>
 <div id="images" class="row">
-    <a class="column">
+    <div class="column">
         <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px">
         <div class="caption">Caption 1</div>
-    </a>
-    <a class="column">
+    </div>
+    <div class="column">
         <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" width="100px" height="100px"> 
         <div class="caption">Caption 2</div>
-    </a>
+    </div>
 </div>
 </p>
+
+
+<div class="row">
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_forest.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
