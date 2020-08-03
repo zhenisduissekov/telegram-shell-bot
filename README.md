@@ -33,21 +33,11 @@
 
        docker build -t telegram-shell-bot .
        docker run --restart=always --name telegram-shell-bot telegram-shell-bot
-<div class="row">
-  <div class="column">
-    <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" alt="Overview" width=30>
-  </div>
-  <div class="column">
-    <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif" alt="Extra" width=30>
-  </div>
-</div>
-
+       
 <p>
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false" width="400" height="400" />
-<img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false" width="400" height="400" />
+Демонстрация основных возможностей
+        <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif?inline=false" width="400" height="400" />
+Демонстрация дополнительных возможностей только для владельца телеграм бота
+        <img src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif?inline=false" width="400" height="400" />
 </p>
 
-<p data-sourcepos="5:1-7:96" dir="auto">
-        <a class="no-attachment-icon" href="https://gitlab.com/dosboxd/question/-/raw/master/with_UUID_crash.gif?inline=false" target="_blank" rel="noopener noreferrer"><img src="https://gitlab.com/dosboxd/question/-/raw/master/with_UUID_crash.gif?inline=false" alt="Alt Text" class="js-lazy-loaded qa-js-lazy-loaded" loading="lazy"></a>
-        <a class="no-attachment-icon" href="https://gitlab.com/dosboxd/question/-/raw/master/with_UUID_jumps.gif?inline=false" target="_blank" rel="noopener noreferrer"><img src="https://gitlab.com/dosboxd/question/-/raw/master/with_UUID_jumps.gif?inline=false" alt="Alt Text" class="js-lazy-loaded qa-js-lazy-loaded" loading="lazy"></a>
-        </p>
