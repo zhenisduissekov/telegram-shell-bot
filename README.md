@@ -21,9 +21,7 @@
 1. cd telegram-shell-bot
 2. ./start_telegram_shell_bot.sh
 
-
 **Установка в Docker** (не обязательна, сделал для пробы)
-
 1. Дать права папке и внутренним папкам
 
         sudo chown -R zhenis telegram-shell-bot/
@@ -34,20 +32,20 @@
        docker build -t telegram-shell-bot .
        docker run --restart=always --name telegram-shell-bot telegram-shell-bot
 
-**Демонстрация:**
-1. основных возможностей <br>
-2. дополнительных возможностей только для владельца телеграм бота
-
-<p>
-<div style="margin:-28px 0px 0px 0px; pointer-events:none; cursor:default;">
-<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" title="Демонстрация основных возможностей" width="400" height="400"/></div>
-&nbsp;&nbsp;&nbsp;
-<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif"  title="Демонстрация дополнительных возможностей только для владельца телеграм бота" width="400" height="400"/>
-</p>
-
 **Использование** 
 1. /start
 2. /menu или /commands
 3. /help
 4. /quit
 5. get- команда распознаваемая в терминале
+
+**Демонстрация:**
+1. основных возможностей <br>
+2. дополнительных возможностей только для владельца телеграм бота
+
+<p>
+<div style="pointer-events:none; cursor:default;">
+<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/overview.gif" title="Демонстрация основных возможностей" width="400" height="400"/></div>
+&nbsp;&nbsp;&nbsp;
+<img class="aligncenter" src="https://github.com/zhenisduissekov/telegram-shell-bot/blob/master/images/extra.gif"  title="Демонстрация дополнительных возможностей только для владельца телеграм бота" width="400" height="400"/>
+</p>
