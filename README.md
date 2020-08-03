@@ -1,3 +1,4 @@
+<img class="aligncenter" src="https://img.shields.io/badge/python-3.8-blue.svg"/>
 <h2># telegram-shell-bot</h2>
 
 Телеграм-бот (Ubuntu 18.04) позволяющий отправлять команды в терминал ПК и получать результат
