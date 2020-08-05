@@ -13,12 +13,9 @@ import yaml
 
 
 def load_config_file():
-    if len(sys.argv) < 2:
-        file_path = Path('config.yaml')
-    else:
-        file_path = Path(sys.argv[1])
+    file_path = Path('config.yaml')
     if not file_path.exists():
-        print('Configuration file does not exist')
+        logging.error('Конфигурационный файл не найден. Необходимо создать его')
         return None
     with file_path.open('r', encoding='utf-8') as stream:
         result_config = yaml.load(stream, Loader=yaml.SafeLoader)
